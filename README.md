@@ -23,3 +23,4 @@ This is a project that can never be complete, there are many things I could add 
 - Added a simple chat loop.
 - Added environment based configs for the API key and model.
 - The program runs by exporting the API key, running the program and if you want to quit, type 'exit'.
+It should be noted that the program can only be run by those with Microsoft's .NET SDK V10.0.302 (free to download) at this stage.
