@@ -3,7 +3,7 @@ using System.Text;
 using System.Text.Json;
 
 var apiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
-var model = Environment.GetEnvironmentVariable("OPENAI_MODEL") ?? "gpt-4o-mini";
+var model = Environment.GetEnvironmentVariable("OPENAI_MODEL") ?? "o3";
 var baseUrl = Environment.GetEnvironmentVariable("OPENAI_BASE_URL") ?? "https://api.openai.com/v1";
 
 if (string.IsNullOrWhiteSpace(apiKey))
